@@ -1,2 +1,2 @@
 # google-clone
-Google Clone. HTML, CSS
+Google Clone made with HTML and CSS.

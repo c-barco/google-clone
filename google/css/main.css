@@ -1,0 +1,244 @@
+body{
+    margin-bottom: 0;
+    padding: 0; /*margen hacia adelante*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+
+    /*elimins los puntos*/
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+    /**centra verticalmente*/
+    align-items: center;
+
+}
+
+a{
+    /*quita la linea debajo*/
+    text-decoration: none;
+}
+
+nav .nav-right-section a{
+    color:black;
+    margin-right: 20px;
+
+}
+
+nav .nav-right-section .menu {
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    /*para asegurarse que la imagen esté dentro de los margenes*/
+    background-size: contain;
+
+    width: 20px;
+    height: 20px;
+
+/*soluciona la repetición de imagenes*/
+    background-repeat: no-repeat;
+}
+
+nav .nav-right-section img{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin-right: 9px;
+} 
+
+nav .nav-right-section a:hover{
+    text-decoration: underline;
+}
+
+/*Sections separa cosas y dentro de ella se usa un div*/
+/*MAIN*/
+
+main{
+
+    margin: 0  auto; 
+    margin-top: 1.79%;
+    align-items: center;
+    text-align: center;
+}
+
+main .main-logo{
+    
+    width: 530px;
+    margin: 0 auto; /*acomoda el margen cnn los margenes autmáticos, es el encargao de que siempre se mantenga centrado*/
+
+}
+
+main .main-logo .img{
+    height: 90px;
+
+}
+
+main .main-input{
+
+    width: 540px;
+    margin: 0 auto;
+    margin-top: 1.5%;
+}
+
+main .main-input-container{
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+    width: 525px;
+}
+
+main .main-input input{
+    height: 46px;
+    border: none;
+    outline: none;
+    width: 450px;
+}
+
+main .main-input .search-icon{
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+    background-size: contain;
+    
+    padding-left: 3%;
+    padding-right: 1px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-left: 2%;
+
+   
+
+}
+
+main .main-input .micro-icon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 0%;
+    padding-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+main .main-input .cam-icon{
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    padding-right: 20%;
+}
+/*sombra*/
+main .main-input-container:hover{
+    box-shadow: 1px 1px 1px 1px rgb(211, 209, 209);
+}
+
+/*botones*/
+
+main .main-button {
+    font-size: 14px;
+    color: #202124;
+    margin-top: 2%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+
+main .main-button-search .search {
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    border: 1px solid transparent;
+    color: rgb(53, 51, 51);
+    height: 190%;
+    width: 150px;
+}
+
+main .main-button-luck .luck {
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    border: 1px solid transparent;
+    color: rgb(53, 51, 51);
+    height: 190%;
+    width: 150px;
+}
+* {
+    box-sizing: border-box;
+ }
+ 
+ .main-button-luck .luck:hover,
+.main-button-search .search:hover {
+    box-sizing: border-box;
+    border: 1px solid #d9dada;
+    box-shadow:0 1px 1px rgba(0,0,0,.16)
+}
+
+
+footer{ 
+    margin-top: 17.6%;
+    margin-bottom: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    list-style: none;
+    display: block;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    
+}
+
+footer nav{
+    display: flex;
+    justify-content: justify;
+
+}
+
+footer nav .footer-container {
+    display: flex;
+    justify-content: space-between;
+ }
+
+footer nav .footer-top{
+    margin-top: 1%;
+    padding-left: 20px;
+    margin-bottom: 1%;
+}
+ 
+footer nav .footer-bottom{
+    list-style: none;
+    display: flex;
+
+}
+
+
+footer nav .footer-bottom a{
+    margin-right: 20px;
+    
+}
+
+footer nav .footer-bottom-left {
+    list-style: none;
+    display: flex;
+    margin-left: 693px;
+}
+
+footer nav .footer-bottom-left a {
+    margin-right: 20px;
+}
+
+.footer-container a:hover{
+    text-decoration: underline;
+}
